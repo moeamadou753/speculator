@@ -20,7 +20,7 @@ Speculation indicator — from the prime mortgage crisis of the 2000’s to the 
 ### Discuss app architecture!
 
 ### To-do stack
-- Create a to-do stack :P (Maybe link a Notion kanban board or create a JIRA board?)
+JIRA Board: https://uottahack3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=UOT&view=planning&issueLimit=100&atlOrigin=eyJpIjoiZmZlOWY3Mzc1YzQ2NGEyMDk0YTViZjBlOGJmZDhlNTIiLCJwIjoiaiJ9
 
 ## Tech Stack
 - Mongo / Express / Node for backend
