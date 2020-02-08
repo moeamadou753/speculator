@@ -4,18 +4,27 @@
 $example-spacing-variable: 16px;
 
 // Colors
+$persimmon-orange: #CD5E29;
 
 // Typography
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.h1 {
+  font-family: 'Noto Serif', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+.h2 { // For large card titles
+  font-family: 'Noto Serif', serif;
 }
+
+.h3 { // For nav bar buttons and outlined text buttons
+
+}
+
+.body { // For large card
+  font-family: 'Noto Serif', serif;
+
+}
+
+
