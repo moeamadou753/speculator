@@ -24,6 +24,7 @@ JIRA Board: https://uottahack3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&
 
 ### UX
 Splash Page: https://www.figma.com/file/VSdWxbEuMj0RmnQYyikmu2/Splash-Page?node-id=0%3A1
+Securities Page: https://www.figma.com/file/vQyaqk1zYBWpSU5r6SU9ae/Securities-Landing-Page?node-id=0%3A1
 
 ## Tech Stack
 - Mongo / Express / Node for backend
