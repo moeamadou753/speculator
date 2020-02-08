@@ -13,7 +13,7 @@ Speculation indicator — from the prime mortgage crisis of the 2000’s to the 
 ## Follow-up steps
 
 ## Tech Stack
-Mongo / Express / Node for backend
-Google Cloud Platform for Machine Learning
-React for Front-end
-Figma for UX/UI
+- Mongo / Express / Node for backend
+- Google Cloud Platform for Machine Learning
+- React for Front-end
+- Figma for UX/UI
