@@ -1,11 +1,11 @@
-# uottahack3
+# Speculator
+### (Working title)
+From the subprime mortgage crisis of the 2000’s to the marked volatility of Tesla stock over the entirety of its lifespan, its no secret that much of what drives stock prices is purely emotional and not backed by facts. This is supported by the fact that a key determinant of stock prices is the general population's expectations for the trajectory of those very stock prices, in accordance with elementary financial theory. <sup>[1]</sup> We can do better in 2020. 
 
-## Idea
-Speculation indicator — from the prime mortgage crisis of the 2000’s to the crash of Tesla stock over speculation that delivery centres would be closed in China due to coronavirus, its no secret that much of what drives stock prices is purely emotional and not backed by facts. This is supported by the idea that the increase in the price of stocks is termed “speculation” and that a key determinant of stock prices is expectations for those stock prices according to elementary financial theory. We can do better in 2020. This web-app will use sentiment analysis (NLP) and scrape twitter and a selection of news sources to create a holistic view of a company’s financial health (statement of financials, comprehensive income, return on equity), PESTLE relevance, and fitness of management, from which it will discern whether or not the company’s stock is currently experience a bearish or bullish bubble, with % likelihood estimates. This will also be supplemented by training ML models using the Berkshire Hathaway repository of historic stock data.
-
-- Use financial statements to assess company's financial health w/ various ratios
-- Make projections for reasonable stock prices based off of companies in similar industries and with similar financials
-- Assess whether or not the stock is in a bullish (overvalued) or bearish (undervalued) bubble 
+This web-app will use sentiment analysis to scrape a curated twitter feed from a selection of reliable news sources to create a holistic view of a company’s public opinion and relevant analysis of political, economic, social, and technological factors. It will then utilize <put decided upon financial info api here> to analyze a company's key financial statements—-statement of financial position, statement of comprehensive income, statement of cash flows—-to assess the company's financial health.
+Finally, it will assess the competency of management by comparing their publicly available CVs to exceptional industry leaders.
+ 
+With all of this information, we will predict whether or not the price of the stock is inflated (in the context of its industry) and provide an overall investment recommendation to users.
 
 ### Meeting
 9AM -- Saturday Feb, 7
@@ -30,3 +30,6 @@ Splash Page: https://www.figma.com/file/VSdWxbEuMj0RmnQYyikmu2/Splash-Page?node-
 - Google Cloud Platform for Machine Learning
 - React for Front-end
 - Figma for UX/UI
+
+### References
+<sup>1</sup> https://www.investopedia.com/articles/basics/04/100804.asp
