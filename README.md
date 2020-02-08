@@ -22,6 +22,9 @@ Speculation indicator — from the prime mortgage crisis of the 2000’s to the 
 ### To-do stack
 JIRA Board: https://uottahack3.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=UOT&view=planning&issueLimit=100&atlOrigin=eyJpIjoiZmZlOWY3Mzc1YzQ2NGEyMDk0YTViZjBlOGJmZDhlNTIiLCJwIjoiaiJ9
 
+### UX
+Splash Page: https://www.figma.com/file/VSdWxbEuMj0RmnQYyikmu2/Splash-Page?node-id=0%3A1
+
 ## Tech Stack
 - Mongo / Express / Node for backend
 - Google Cloud Platform for Machine Learning
