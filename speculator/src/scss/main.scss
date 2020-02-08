@@ -1,0 +1,7 @@
+// Import all of your SCSS files to this file.
+// The reason for this practise is because CSS styling is applied globally, so it only needs to be referenced (either directly or indirectly)
+// once.
+
+// Example:
+@import "./App.scss"; // @import "App", @import "./App" would also work.
+@import "./globalVariables";

@@ -12,6 +12,16 @@ Speculation indicator — from the prime mortgage crisis of the 2000’s to the 
 
 ## Follow-up steps
 
+### Initial set-up
+- Install either VSCode or Webstorm as an IDE
+- Use a similar linter! (I recommend prettier and ESLint)
+- Install GitKraken or SourceTree so that using git doesn't make you want to off yourself
+
+### Discuss app architecture!
+
+### To-do stack
+- Create a to-do stack :P (Maybe link a Notion kanban board or create a JIRA board?)
+
 ## Tech Stack
 - Mongo / Express / Node for backend
 - Google Cloud Platform for Machine Learning
