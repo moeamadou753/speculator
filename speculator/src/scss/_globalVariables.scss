@@ -4,27 +4,44 @@
 $example-spacing-variable: 16px;
 
 // Colors
-$persimmon-orange: #CD5E29;
+$persimmon-orange: #cd5e29;
+$light-brown: #C5A78F;
+$dark-brown: #BD846F;
+$teal: #2588A0;
+$blue: #4410F2;
 
 // Typography
 .h1 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 120px;
 }
 
-.h2 { // For large card titles
-  font-family: 'Noto Serif', serif;
+.h2 {
+  // For large card titles
+  font-family: "Noto Serif", serif;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 131px;
 }
 
-.h3 { // For nav bar buttons and outlined text buttons
-
+.h3 {
+  // For nav bar buttons and outlined text buttons
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
 }
 
-.body { // For large card
-  font-family: 'Noto Serif', serif;
-
+.body {
+  // For large card
+  font-family: "Noto Serif", serif;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
 }
-
-
