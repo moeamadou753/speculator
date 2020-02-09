@@ -3,6 +3,7 @@ import './scss/main.scss';
 import SplashContainer from "./components/base/SplashContainer";
 import person from "./assets/person.svg";
 import {Router, Route, Switch} from "react-router-dom";
+import SearchBar from './components/SearchBar.jsx';
 
 function App() {
   return (<div className="main__container">
@@ -18,5 +19,5 @@ function App() {
   </div>
   </div>);
 }
-  
+
 export default App;
