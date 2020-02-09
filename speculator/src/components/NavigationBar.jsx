@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import "../scss/NavigationBar.scss";
-import Card from "react-bootstrap/Card";
 
 function NavigationBar() {
   return (
