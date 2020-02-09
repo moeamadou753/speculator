@@ -1,0 +1,26 @@
+.landing__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: $wallflower-beige;
+  overflow-y: scroll;
+  display: block;
+}
+
+.landing-page__main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: $persimmon-orange;
+  overflow-y: scroll;
+  display: block;
+}
+
+.landing-page__main__content-container {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  background-color: $wallflower-beige;
+}

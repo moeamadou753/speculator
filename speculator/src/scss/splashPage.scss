@@ -4,11 +4,17 @@
   width: 100%;
   height: 100%;
   position: relative;
-  background: linear-gradient(#D4D3DD 0%, #B9B5FF 70%);
+  background: linear-gradient(#d4d3dd 0%, #b9b5ff 70%);
   overflow-y: scroll;
   display: block;
 }
-
+.splash__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+  display: block;
+}
 
 // Intro
 
@@ -27,7 +33,7 @@
 }
 
 .region__intro__heading {
-  background: -webkit-linear-gradient(#BD846F, #5200FF);
+  background: -webkit-linear-gradient(#bd846f, #5200ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -90,14 +96,14 @@
 
 .region__about__orange-hijab {
   position: absolute;
-  top: -46%;
+  top: -38%;
   right: 5%;
 }
 
 .region__about__purple-hijab {
   position: absolute;
-  top: -43%;
-  right : 25%;
+  top: -36%;
+  right: 25%;
 }
 
 // Getting Started
@@ -192,7 +198,6 @@
   margin-top: 18%;
   margin-left: 5%;
   padding: 64px;
-
 }
 
 .region__getting-started__card-heading {
@@ -230,8 +235,6 @@
   overflow: hidden;
 }
 
-
-
 // Footer
 .footer__text {
   display: inline-block;
@@ -242,5 +245,3 @@
   margin: 5%;
   left: 30%;
 }
-
-
