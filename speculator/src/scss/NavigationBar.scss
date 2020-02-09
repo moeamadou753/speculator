@@ -1,0 +1,19 @@
+@import "./globalVariables";
+
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar__text-inactive {
+  color: $light-brown;
+  text-decoration: none;
+  -webkit-text-stroke: 1px $dark-brown;
+}
+
+.navbar__text-active {
+  color: $light-purple;
+  text-decoration: none;
+  -webkit-text-stroke: 1px $nightshade-purple;
+}
