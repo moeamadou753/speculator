@@ -9,11 +9,10 @@ import NavigationBar from "./components/NavigationBar";
 
 function App() {
   return (
-    <div className="main__container">
       <Router>
         <Switch>
           <Route path="/">
-            <div className="App">
+            <div className="main__container">
               <NavigationBar />
               <div className="region__intro">
                 <div className="region__intro__text-container">
@@ -25,26 +24,18 @@ function App() {
                 <img src={person} className="region__intro__image" />
               </div>
               <div className="region__about">
-                <img
-                  src={require(`./assets/ABOUT_person-standing.svg`)}
-                  className="region__about__image"
-                />
+                <div className="region__about__separator-left" />
+                <div className="region__about__separator-right" />
+                <div className="region__about__heading h1">about</div>
+                <img src={require(`./assets/ABOUT_person-standing.svg`)} className="region__about__image" />
+              </div>
+              <div className="region__getting-started">
+
               </div>
             </div>
           </Route>
         </Switch>
-      </Router>
-    </div>
-    <div className="region__about">
-      <div className="region__about__separator-left" />
-      <div className="region__about__separator-right" />
-      <div className="region__about__heading h1">about</div>
-      <img src={require(`./assets/ABOUT_person-standing.svg`)} className="region__about__image" />
-  </div>
-    <div className="region__getting-started">
-
-    </div>
-  </div>);
+      </Router>);
 }
 
 export default App;
