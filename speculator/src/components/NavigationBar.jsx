@@ -39,8 +39,8 @@ function NavigationBar() {
 
 function isActive(hash) {
   return (match, location) => {
-    console.log(match, location);
-    console.log(window.location.hash);
+    // console.log(match, location);
+    // console.log(window.location.hash);
     if (!match) {
       return false;
     }
