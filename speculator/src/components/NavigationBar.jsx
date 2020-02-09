@@ -1,29 +1,29 @@
 import React from "react";
 import { BrowserRouter as Router, NavLink } from "react-router-dom";
 import "../scss/NavigationBar.scss";
+import { NavHashLink } from "react-router-hash-link";
 
 function NavigationBar() {
   return (
     <aside className="navbar__container">
-      <NavLink
+      <NavHashLink
         className="navbar__text-inactive h3"
-        exact
+        smooth
         to="/#about"
         activeClassName="navbar__text-active h3"
         isActive={isActive("#about")}
       >
         <div>about</div>
-      </NavLink>
-      <NavLink
+      </NavHashLink>
+      <NavHashLink
         className="navbar__text-inactive h3"
-        exact
-        strict
-        to="/#gettingstarted"
+        smooth
+        to="/#getting-started"
         activeClassName="navbar__text-active h3"
         isActive={isActive("#gettingstarted")}
       >
         <div>getting started</div>
-      </NavLink>
+      </NavHashLink>
       <NavLink
         className="navbar__text-inactive h3"
         exact

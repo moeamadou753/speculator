@@ -15,7 +15,7 @@ function Splash() {
         </div>
         <img src={person} className="region__intro__image" />
       </div>
-      <div className="region__about">
+      <div className="region__about" id="about">
         <div className="region__about__separator-left" />
         <div className="region__about__separator-right" />
         <div className="region__about__heading h1">about</div>
@@ -44,7 +44,7 @@ function Splash() {
           className="region__about__image"
         />
       </div>
-      <div className="region__getting-started">
+      <div className="region__getting-started" id="getting-started">
         <div className="region__getting-started__separator-left" />
         <div className="region__getting-started__separator-right" />
         <div className="region__getting-started__heading h1">
