@@ -1,16 +1,22 @@
 import React from 'react';
 import './scss/main.scss';
-import { Component } from 'react';
-import ReactBootstrap from 'react-bootstrap';
-import Card from "./components/base/Card";
+import SplashContainer from "./components/base/SplashContainer";
+import person from "./assets/person.svg";
+import {Router, Route, Switch} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <Card>
-      </Card>
+  return (<div className="main__container">
+    <div className="region__intro">
+      <div className="region__intro__text-container">
+        <div className="region__intro__heading h1">speculator</div>
+        <div className="region__intro__description h3">demystify what moves the world.</div>
+      </div>
+      <img src={person} className="region__intro__image"/>
     </div>
-  );
+    <div className="region__about">
+      <img src={require(`./assets/ABOUT_person-standing.svg`)} className="region__about__image" />
+  </div>
+  </div>);
 }
   
 export default App;

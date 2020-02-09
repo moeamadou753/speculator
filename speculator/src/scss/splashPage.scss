@@ -1,0 +1,73 @@
+@import "./globalVariables";
+
+.main__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: -webkit-linear-gradient(#D4D3DD, #B9B5FF);
+  overflow-y: scroll;
+  display: block;
+}
+
+// Intro
+
+.region__intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.region__intro__text-container {
+  position: absolute;
+  left: 10%;
+  bottom: 60%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.region__intro__heading {
+  background: -webkit-linear-gradient(#BD846F, #5200FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.region__intro__description {
+  color: $nightshade-purple;
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 60%;
+}
+
+.region__intro__image {
+  position: absolute;
+  margin: 0 auto;
+  height: 80%;
+  right: 0;
+  width: auto;
+  justify-content: center;
+  bottom: 0;
+}
+
+// About
+.region__about {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.region__about__heading {
+
+}
+
+.region__about__image {
+  position: absolute;
+  left: 0 !important;
+  bottom: 0;
+  width: auto;
+  height: 100%;
+}
+// Getting Started
+.region__getting-started {
+
+}
