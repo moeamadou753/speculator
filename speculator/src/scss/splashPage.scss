@@ -20,7 +20,7 @@
 .region__intro__text-container {
   position: absolute;
   left: 10%;
-  bottom: 60%;
+  bottom: 50%;
   display: flex;
   flex-direction: column;
 
@@ -41,33 +41,66 @@
 
 .region__intro__image {
   position: absolute;
-  margin: 0 auto;
   height: 80%;
-  right: 0;
+  right: 10%;
   width: auto;
-  justify-content: center;
   bottom: 0;
 }
 
 // About
 .region__about {
   position: relative;
+  display: block;
   width: 100%;
   height: 100%;
 }
 
 .region__about__heading {
-
+  position: absolute;
+  color: $violet;
+  top: 5%;
+  left: 10%;
 }
 
-.region__about__image {
+.region__about__separator-left {
+  background-color: $violet;
   position: absolute;
+  height: 5%;
+  width: 5%;
+  left: 0;
+  top: 15%;
+}
+
+.region__about__separator-right {
+  background-color: $violet;
+  position: absolute;
+  height: 5%;
+  width: 60%;
+  right: 0;
+  top: 15%;
+}
+.region__about__image {
+  position: relative;
+  display: inline-block;
   left: 0 !important;
-  bottom: 0;
+  top: 30%;
   width: auto;
   height: 100%;
 }
 // Getting Started
 .region__getting-started {
+  width: 100%;
+  height: 500%;
+}
+
+.region__getting-started__heading {
+
+}
+
+.region__getting-started__separator-left {
+
+}
+
+.region__getting-started__separator-right {
 
 }

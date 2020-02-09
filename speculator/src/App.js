@@ -35,7 +35,16 @@ function App() {
         </Switch>
       </Router>
     </div>
-  );
+    <div className="region__about">
+      <div className="region__about__separator-left" />
+      <div className="region__about__separator-right" />
+      <div className="region__about__heading h1">about</div>
+      <img src={require(`./assets/ABOUT_person-standing.svg`)} className="region__about__image" />
+  </div>
+    <div className="region__getting-started">
+
+    </div>
+  </div>);
 }
 
 export default App;

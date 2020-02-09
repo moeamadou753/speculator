@@ -11,12 +11,13 @@ $teal: #2588a0;
 $blue: #4410f2;
 $light-purple: #c48cdf;
 $nightshade-purple: #614385;
+$violet: #7151BC;
 
 // Typography
 .h1 {
   font-family: "Noto Serif", serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 120px;
 }
 
@@ -24,7 +25,7 @@ $nightshade-purple: #614385;
   // For large card titles
   font-family: "Noto Serif", serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 96px;
   line-height: 131px;
 }
