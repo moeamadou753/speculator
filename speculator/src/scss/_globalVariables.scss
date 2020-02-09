@@ -6,6 +6,7 @@ $example-spacing-variable: 16px;
 // Colors
 $persimmon-orange: #cd5e29;
 $light-brown: #c5a78f;
+$wallflower-beige: #FFF4EF;
 $dark-brown: #bd846f;
 $teal: #2588a0;
 $blue: #4410f2;
@@ -54,4 +55,5 @@ body,
 #root {
   height: 100%;
   width: 100%;
+  margin: 0;
 }

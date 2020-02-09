@@ -27,10 +27,17 @@ function App() {
                 <div className="region__about__separator-left" />
                 <div className="region__about__separator-right" />
                 <div className="region__about__heading h1">about</div>
+                <div className="region__getting-started__card-orange">
+                  <div className="region__getting-started__card-orange__text body">
+                    we believe that <b>financial literacy</b> is the key to <b>freedom</b> in the modern world...
+                  </div>
+                </div>
                 <img src={require(`./assets/ABOUT_person-standing.svg`)} className="region__about__image" />
               </div>
               <div className="region__getting-started">
-
+                <div className="region__getting-started__separator-left" />
+                <div className="region__getting-started__separator-right" />
+                <div className="region__getting-started__heading h1">getting started</div>
               </div>
             </div>
           </Route>
