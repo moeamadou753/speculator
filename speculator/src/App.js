@@ -29,7 +29,7 @@ function App() {
                 <div className="region__about__heading h1">about</div>
                 <div className="region__getting-started__card-purple">
                   <div className="region__getting-started__card-purple__text body">
-                    we believe that <b>financial literacy</b> is the key to <b>freedom</b> in the modern world...
+                    we believe that financial literacy is the key to <b>freedom</b> in the modern world...
                   </div>
                 </div>
                 <div className="region__getting-started__card-orange">
