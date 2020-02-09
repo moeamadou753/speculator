@@ -182,12 +182,65 @@
   height: 100%;
 }
 
+.region__getting-started__card {
+  position: relative;
+  display: inline-block;
+  border-radius: 15px;
+  background: $wallflower-beige;
+  width: 80%;
+  height: 70%;
+  margin-top: 18%;
+  margin-left: 5%;
+  padding: 64px;
+
+}
+
+.region__getting-started__card-heading {
+  display: flex;
+  color: $persimmon-orange;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.region__getting-started__card-description {
+  color: $persimmon-orange;
+  display: flex;
+  width: 40%;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.region__getting-started__card-button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 64px;
+  color: $wallflower-beige;
+  text-decoration: none;
+  -webkit-text-stroke: 1px $persimmon-orange;
+}
+
+.region__getting-started__card-button:hover {
+  color: $persimmon-orange;
+}
+
+.region__getting-started__card-image {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  overflow: hidden;
+}
+
+
+
 // Footer
 .footer__text {
-  position: absolute;
+  display: inline-block;
+  position: relative;
   color: $persimmon-orange;
-  bottom: 5%;
-  left: 35%;
+  bottom: 0%;
+  padding: 16px;
+  margin: 5%;
+  left: 30%;
 }
 
 

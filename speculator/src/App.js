@@ -2,7 +2,7 @@ import React from "react";
 import "./scss/main.scss";
 import SplashContainer from "./components/base/SplashContainer";
 import person from "./assets/person.svg";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import SearchBar from "./components/SearchBar.jsx";
 import { Component } from "react";
 import NavigationBar from "./components/NavigationBar";
@@ -45,6 +45,14 @@ function App() {
                 <div className="region__getting-started__separator-left" />
                 <div className="region__getting-started__separator-right" />
                 <div className="region__getting-started__heading h1">getting started</div>
+                <div className="region__getting-started__card">
+                  <div className="region__getting-started__card-heading h2">speculator securities</div>
+                  <div className="region__getting-started__card-description body-small">understand the in's and out's of your favourite company.</div>
+                  <Link to="/securities">
+                    <div className="region__getting-started__card-button h3-bold">get started</div>
+                  </Link>
+                  <img src={require(`./assets/Getting_Started_Graph.svg`)} className="region__getting-started__card-image" />
+                </div>
                 <div className="body-small footer__text">Made with ♥️ for UOttaHack3.</div>
               </div>
             </div>
