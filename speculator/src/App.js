@@ -29,7 +29,7 @@ function App() {
                 <div className="region__about__heading h1">about</div>
                 <div className="region__getting-started__card-orange">
                   <div className="region__getting-started__card-orange__text body">
-                    we believe that <b>financial literacy</b> is the key to <b>freedom</b> in the modern world...
+                    we believe that financial literacy is the key to <b>freedom</b> in the modern world...
                   </div>
                 </div>
                 <img src={require(`./assets/ABOUT_person-standing.svg`)} className="region__about__image" />
