@@ -34,7 +34,7 @@ function App() {
                 </div>
                 <div className="region__getting-started__card-orange">
                   <div className="region__getting-started__card-orange__text body">
-                    so we're making it <b> easier than ever </b> for the world to understand what makes it turn — money.
+                    ... so we're making it <b> easier than ever </b> for the world to understand what makes it turn — money.
                   </div>
                   <img src={require(`./assets/About_Purple_Hijab.svg`)} className="region__about__purple-hijab" />
                   <img src={require(`./assets/About_Orange_Hijab.svg`)} className="region__about__orange-hijab" />
@@ -45,6 +45,7 @@ function App() {
                 <div className="region__getting-started__separator-left" />
                 <div className="region__getting-started__separator-right" />
                 <div className="region__getting-started__heading h1">getting started</div>
+                <div className="body-small footer__text">Made with ♥️ for UOttaHack3.</div>
               </div>
             </div>
           </Route>
