@@ -5,10 +5,11 @@ $example-spacing-variable: 16px;
 
 // Colors
 $persimmon-orange: #cd5e29;
-$light-brown: #C5A78F;
-$dark-brown: #BD846F;
-$teal: #2588A0;
-$blue: #4410F2;
+$light-brown: #c5a78f;
+$dark-brown: #bd846f;
+$teal: #2588a0;
+$blue: #4410f2;
+$light-purple: #c48cdf;
 $nightshade-purple: #614385;
 
 // Typography
@@ -32,7 +33,7 @@ $nightshade-purple: #614385;
   // For nav bar buttons and outlined text buttons
   font-family: "Noto Serif", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 48px;
   line-height: 65px;
 }
@@ -47,7 +48,9 @@ $nightshade-purple: #614385;
 
 // Other
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
 }
