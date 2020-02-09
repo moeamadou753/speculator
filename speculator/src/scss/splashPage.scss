@@ -4,10 +4,11 @@
   width: 100%;
   height: 100%;
   position: relative;
-  background: -webkit-linear-gradient(#D4D3DD, #B9B5FF);
+  background: linear-gradient(#D4D3DD 0%, #B9B5FF 70%);
   overflow-y: scroll;
   display: block;
 }
+
 
 // Intro
 
@@ -20,10 +21,9 @@
 .region__intro__text-container {
   position: absolute;
   left: 10%;
-  bottom: 50%;
+  top: 20%;
   display: flex;
   flex-direction: column;
-
 }
 
 .region__intro__heading {
@@ -35,8 +35,8 @@
 .region__intro__description {
   color: $nightshade-purple;
   display: flex;
-  flex-flow: row wrap;
-  flex-basis: 60%;
+  flex-wrap: wrap;
+  width: 50%;
 }
 
 .region__intro__image {
