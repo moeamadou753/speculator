@@ -1,5 +1,4 @@
 # Speculator
----
 ## Motivator
 From the subprime mortgage crisis of the 2000’s to the marked volatility of Tesla stock over the entirety of its lifespan, its no secret that much of what drives stock prices is purely emotional and not backed by facts. This is supported by the fact that a key determinant of stock prices is the general population's expectations for the trajectory of those very stock prices, in accordance with elementary financial theory. <sup>[1]</sup> We can do better in 2020. 
 
